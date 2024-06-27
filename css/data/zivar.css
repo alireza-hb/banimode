@@ -1,0 +1,43 @@
+.zivar {
+  width: 100%;
+  height: 350px;
+  margin-top: 40px;
+  /* background-color: black; */
+  margin-bottom: 30px;
+  perspective: 800px;
+}
+.zivar .centerZivar {
+  width: 1460px;
+  height: 330px;
+  margin: 0 auto;
+  /* background-color: purple; */
+  text-align: center;
+}
+.zivar .centerZivar h2 {
+  display: block;
+  text-align: center;
+  font-family: yekan;
+  font-size: 26px;
+  font-weight: 500;
+  color: rgb(33, 37, 41);
+  /* background-color: aqua; */
+}
+.zivar .centerZivar .centerZivarimg {
+  display: inline-block;
+  width: 200px;
+  height: 280px;
+  /* background-color: blue; */
+  margin-left: 5px;
+  position: relative;
+  cursor: pointer;
+}
+.zivar .centerZivar .centerZivarimg img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  transition: 1000ms;
+  transform: scale(0.8, 0.8);
+}
+.zivar .centerZivar .centerZivarimg:hover img {
+  transform: scale(0.9, 0.9);
+}

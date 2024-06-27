@@ -1,0 +1,40 @@
+.moshk {
+  width: 100%;
+  height: 278px;
+  /* background-color: black; */
+  margin-bottom: 40px;
+}
+.moshk .centerZivar {
+  width: 1460px;
+  height: 270px;
+  margin: 0 auto;
+  /* background-color: purple; */
+  text-align: center;
+  position: relative;
+}
+.moshk .centerZivar .moshkel {
+  display: inline-block;
+  width: 330px;
+  height: 260px;
+  /* background-color: blue; */
+  margin-left: 5px;
+  position: relative;
+  cursor: pointer;
+  margin-right: 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-top: 3px;
+  overflow: hidden;
+}
+.moshk .centerZivar .moshkel img {
+  width: inherit;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  transform: scale(0.9.5, 0.9.5);
+  transition: 1200ms;
+}
+.moshk .centerZivar .moshkel:hover img {
+  transform: scale(1.1, 1.1);
+}

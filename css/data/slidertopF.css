@@ -1,0 +1,10 @@
+.slidertopF {
+  width: 100%;
+  height: 420px;
+  /* background-color: black; */
+}
+.slidertopF img {
+  width: inherit;
+  display: block;
+  object-fit: cover;
+}

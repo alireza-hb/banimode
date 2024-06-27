@@ -1,0 +1,28 @@
+.zivar .centerZivar .asl {
+  display: inline-block;
+  width: 725px;
+  height: 220px;
+  /* background-color: blue; */
+  margin-top: 20px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.zivar .centerZivar .asl .imgge {
+  width: inherit;
+  height: inherit;
+  display: block;
+  /* background-color: blueviolet; */
+  cursor: pointer;
+}
+.zivar .centerZivar .asl .imgge img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  transform: scale(0.9.95, 0.9.95);
+  transition: 900ms;
+}
+.zivar .centerZivar .asl .imgge:hover img {
+  transform: scale(1.03, 1.03);
+}

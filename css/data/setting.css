@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*wrapper kolle safhe webemoone vas hamin fghhd width midim bhesh chon heightesh ghrre ezafe she*/
+@font-face {
+  font-family: yekan;
+  src: url("../../fonts/fa/IRANYekanWebFn.eot");
+  src: url("../../fonts/fa/IRANYekanWebFn.ttf");
+  src: url("../../fonts/fa/IRANYekanWebFn.woff");
+  src: url("../../fonts/fa/IRANYekanWebFn.woff2");
+}
+.wrapper {
+  width: 100%;
+}
